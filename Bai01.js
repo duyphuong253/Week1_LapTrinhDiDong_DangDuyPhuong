@@ -32,3 +32,8 @@ if(markHigherBMI === true){
 else
     console.log("Mark's BMI is higher than John's");
 // 2. Use a template literal to include the BMI values in the outputs. Example: "Mark's BMI (28.3) is higher than John's (23.9)!"
+if(markHigherBMI === true){
+    console.log("John's BMI (" + bmi(massJohn, heightJohn) +") is higher than Mark's " + bmi(massMark, heightMark))
+}
+else
+    console.log("Mark's BMI (" + bmi(massMark, heightMark) +") is higher than John's " + bmi(massJohn, heightJohn))
